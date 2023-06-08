@@ -1,0 +1,20 @@
+graph TD
+A[Browse online platforms or social media for products or services] --> B[Compare prices, reviews, and delivery options] 
+B --> C[Select preferred platform and product or service] 
+C --> D[Choose shopping mode: online or offline] 
+D -- Online--> E[Add to cart and proceed to checkout] 
+E -- Offline--> F[Visit nearest store and locate product or service] 
+E --> G[Choose payment method: cash on delivery, credit card, or digital wallet] 
+F --> G
+G --> H[Enter delivery address and contact details if online] 
+H -- Online--> I[Confirm order and receive confirmation email or SMS] 
+H -- Offline--> J[Receive receipt and loyalty points if any] 
+I -- Online--> K[Track order status and delivery progress] 
+K -- Online--> L[Receive order and pay if cash on delivery] 
+J -- Offline--> L
+L -- Online--> M[Evaluate product or service quality and customer satisfaction] 
+L -- Offline--> N[Evaluate store experience and customer service] 
+M -- Online--> O[Provide feedback or rating to platform and seller] 
+N -- Offline--> P[Provide feedback or rating to store and staff] 
+O -- Online--> Q[Return or exchange product if needed online or offline] 
+P -- Offline--> Q
